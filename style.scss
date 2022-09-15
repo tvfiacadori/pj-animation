@@ -1,0 +1,258 @@
+    @font-face {
+        font-family: 'PixelEmulator-xq08.ttf';
+        src: url(./PixelEmulator-xq08.ttf);
+    }
+
+
+    * {
+        padding: 0;
+        margin: 0; 
+    }
+  
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+
+    }
+  
+    body {
+        background-color: bisque;
+     }
+  
+    .affiche-container {
+        background: rgb(254,253,254);
+        background: linear-gradient(225deg, rgba(254,253,254,1) 0%, rgba(230, 24, 123, 0.87) 10%, rgba(71,31,115,1) 48%, rgba(71,31,115,1) 100%, rgba(71,31,115,1) 100%);
+        width: 70vh;
+        height: 100vh;
+        margin: auto; 
+    }
+
+    .logo {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    #TextRetro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -25%;
+        
+        
+    }
+
+    .pc {
+        width: 80%;
+        margin-left: 5%;
+            
+
+    }
+
+        /* animation */
+    #element {
+        display: flex;
+        justify-content: end;
+    }
+
+
+
+     .retroWhite, .retroBlue, .retroRed, .yearWhite, 
+     .yearBlue, .yearRed, .dateBlue {
+        font-family: 'PixelEmulator-xq08.ttf';
+
+     }
+
+    .retroWhite {
+        font-size: 55px;
+        word-spacing: -24px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: -69px;
+        margin-right: -9px;
+        z-index: 31;
+      
+    }
+        /* Year date  */
+
+    .retroBlue{
+        font-size: 55px;
+        word-spacing: -24px;
+        color: #4ab7f4;
+        margin-bottom: -59px;
+    }
+
+    .retroRed {
+        font-size: 55px;
+        word-spacing: -24px;
+        color: #f7142b;
+        margin-right: -20px;
+        
+        
+        
+
+    }
+
+    .dateBlue {
+       
+        font-size: 40px;
+        color: #4ab7f4;
+    }
+
+    .yearWhite {
+
+        color: white;
+        font-size: 80px;
+        margin-bottom: -96px;
+        margin-right: -9px;
+        z-index: 31;
+
+    }
+
+    .yearBlue {
+        color: #4ab7f4;
+        font-size: 80px;
+        margin-bottom: -89px;
+    }
+
+    .yearRed {
+        color: #f7142b;
+        font-size: 80px;
+        margin-right: -24px;
+    }
+
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        
+
+    }
+
+    .villeLyon {
+        width: 15%;
+        height: 15%;
+        margin-left: 30px;
+        
+    }
+
+    .address {
+        font-family: "Raleway";
+        color: white;
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 8px;
+        margin-left: 30px;
+    }
+
+
+   // Pag loading 
+
+    .preLoader {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 40;
+        background: rgb(254,253,254);
+        // background: linear-gradient(225deg, rgba(254,253,254,1) 0%, rgba(230, 24, 123, 0.87) 10%, rgba(71,31,115,1) 48%, rgba(71,31,115,1) 100%, rgba(71,31,115,1) 100%);
+        background-image: url(./Projet-fly/background-grain.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .VacheWhite, .VacheBlue, .VacheRed, .blueColor,
+    .ChienWhite, .Chienblue, .ChienRed {
+        font-family: 'PixelEmulator-xq08.ttf';
+        font-size: 50px;    
+    }
+
+    .VacheWhite {
+        color: white;
+        margin-bottom: -29px;
+        margin-right: -12px;
+        z-index: 1;
+        letter-spacing: 5px;
+
+    }
+
+    .VacheBlue{
+
+        color: #4ab7f4;
+        margin-top: -33px;
+        letter-spacing: 5px;
+        margin-right: -5px;
+    
+
+    }
+
+    .VacheRed{
+        color: #f7142b;
+        margin-top: -53px;
+        margin-left: 21px;
+        letter-spacing: 5px;
+    }
+
+
+    .ChienWhite{
+        color: white;
+        margin-bottom: -29px;
+        margin-right: -12px;
+        z-index: 1;
+        letter-spacing: 5px;
+        margin-left: 75px;
+    }
+
+    .Chienblue{
+
+        color: #4ab7f4;
+        margin-top: -33px;
+        letter-spacing: 5px;
+        margin-right: -5px;
+        margin-left: 75px;
+    
+
+    }
+
+    .ChienRed{
+        color: #f7142b;
+        margin-top: -53px;
+        margin-left: 21px;
+        letter-spacing: 5px;
+        margin-left: 75px;
+    }
+
+
+    .blueColor {
+        color: #4ab7f4;
+    }
+
+
+    #vaChien {
+        
+        margin-bottom: 20%;
+        position: absolute;
+        animation: vaChien-animation 2.5s  linear;
+    }
+
+
+    @keyframes vaChien-animation {
+        from {
+            transform: translateX(650px);
+          }
+          to {
+            transform: translateX(0);
+          }
+    }
+
+
+//   outros elementos para fazer animação //
+
+
+
+
